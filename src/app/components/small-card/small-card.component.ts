@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./small-card.component.css']
 })
 export class SmallCardComponent {
+photoCover: string = "http://www.bucartaosim.com.br/images/bucomum.jpg"
+cardTitle: string = "Saiu a nova versão do Angular"
 
+constructor() {}
+
+  ngOnInit(): void {
+
+  }
 }
