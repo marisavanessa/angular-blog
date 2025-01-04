@@ -1,19 +1,13 @@
 <div class="container__small-card">
-  <p>small-card works!</p>
   <div class="container__small-card-content">
     <div class="small-card__photo">
       <img
-        src={{ photoCover }}
+        src="{{ photoCover }}"
         alt=""
         srcset="">
     </div>
     <div class="small-card__title">
       <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
-    </div>
-    <div class="small-card__description">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum comodo turpis, posuere ornare urna scelerisque vel. Sed in bibendum dui. Sed tincidunt sagittis arcu, vitae tincidunt turpis fringilla at. Ut vehicula eu mauris sit amet blandit. Sed convallis luctus nisi ac lacinia. Inteiro dapibus mauris est, sit amet eleifend nibh facilisis ut. Etiam a lacus vulputate ligula tincidunt consequat nec ut lectus.
-      </p>
     </div>
   </div>
 

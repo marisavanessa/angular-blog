@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -6,8 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./small-card.component.css']
 })
 export class SmallCardComponent {
-photoCover: string = "http://www.bucartaosim.com.br/images/bucomum.jpg"
-cardTitle: string = "Saiu a nova versão do Angular"
+@Input()
+photoCover: string = ""
+@Input()
+cardTitle: string = ""
+@Input()
 Id:string="0"
 
 constructor() {}

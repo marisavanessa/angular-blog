@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -8,9 +8,12 @@ import { Component } from '@angular/core';
 export class BigCardComponent implements OnInit {
 
   @Input()
-  photoCover:string ="https://jundiai.sp.gov.br/noticias/wp-content/uploads/sites/32/2023/06/novos-onibus-ja-estao-em-circulacao-nas-linhas-municipais.jpg"
-  cardTitle:string ="Teste Marisa"
-  cardDescription:string ="Este é um teste de Angular"
+  photoCover:string =""
+  @Input()
+  cardTitle:string =""
+  @Input()
+  cardDescription:string =""
+  @Input()
   Id:string="0"
 
   constructor() { }
