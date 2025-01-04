@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent implements OnInit {
-  photoCover:string =""
+
+  @Input()
+  photoCover:string ="https://jundiai.sp.gov.br/noticias/wp-content/uploads/sites/32/2023/06/novos-onibus-ja-estao-em-circulacao-nas-linhas-municipais.jpg"
   cardTitle:string ="Teste Marisa"
   cardDescription:string ="Este é um teste de Angular"
 
