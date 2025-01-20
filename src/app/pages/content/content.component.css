@@ -26,7 +26,23 @@
   margin-top: 15px;
 }
 
+.content__description > a{
+  display: flex;
+  justify-content: center;
+}
+
 .content__description > p{
   margin-top: 20px;
   color: rgb(198, 197, 197);
 }
+
+.content__text {
+  margin-top: 15px;
+}
+
+.content__text > p{
+  margin-top: 4px;
+  font-size: 14px;
+  color: rgb(218, 217, 217);
+}
+
